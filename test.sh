@@ -22,7 +22,7 @@ gen() {
         --metadata=False \
         --fake-bootc=False \
         --arches="x86_64" \
-        --distros="centos-9" \
+        --distros="fedora-43" \
         --cache "${output}/rpmmd" \
         --workers=10
 }
