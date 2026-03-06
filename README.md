@@ -17,3 +17,7 @@ diff -r manifests/dnf4/manifests manifests/dnf5/manifests
 ```
 
 WARNING: The output directories (`manifests/dnf4/` and `manifests/dnf5/`) are cleared at the start of each run.
+
+## Manifests to generate and compare
+
+Change the `gen-manifests` options in `test.sh` to control which manifests are generated and compared.

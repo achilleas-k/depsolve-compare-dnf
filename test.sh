@@ -22,9 +22,9 @@ gen() {
         --metadata=False \
         --fake-bootc=False \
         --arches="x86_64" \
-        --distros="centos*" \
+        --distros="centos-9" \
         --cache "${output}/rpmmd" \
-        --workers=100
+        --workers=10
 }
 
 cat > /usr/lib/osbuild/solver.json << EOF
