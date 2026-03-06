@@ -15,7 +15,7 @@ gen() {
     echo "GENERATING MANIFESTS"
     # also making sure metadata are not reused between runs by putting them in
     # the output directory
-    go run ./cmd/gen-manifests  \
+    /bin/gen-manifests  \
         --output "${output}/manifests" \
         --packages=True \
         --containers=True \
